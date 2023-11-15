@@ -1,0 +1,39 @@
+Notebook 1: Baseline Analysis (Non-Log) ✅
+
+Content: Comprehensive analysis of the baseline dataset.
+Purpose: Establish initial insights, clustering, and baseline understanding of the data.
+Data: Baseline dataset with outliers, non-log transformed.
+Analysis: K-means clustering, basic visualization, and deriving initial insights.
+Note: This notebook sets the stage for my analysis, providing the foundational understanding of the dataset's characteristics.
+
+Notebook 2: Baseline Analysis with Log Transformation (Robustness Check)
+
+Content: Analysis of the baseline dataset with log transformation.
+Purpose: Test the robustness of initial insights and clustering in the log-transformed data space.
+Data: Baseline dataset with outliers, log-transformed.
+Analysis: Reapply K-means clustering and compare clusters and insights with those from the non-log transformed baseline (Notebook 1).
+Note: This notebook assesses how log transformation impacts the clustering and insights, serving as a robustness check.
+
+Notebook 3: Baseline Analysis without Outliers (Robustness Check)
+
+Content: Repeat the baseline analysis excluding outliers.
+Purpose: Further validate the robustness of the initial insights without the influence of outliers.
+Data: Baseline dataset without outliers, non-log transformed.
+Analysis: K-means clustering, visualization, and insights comparison with Notebook 1.
+Note: Focuses on understanding the impact of outliers on my baseline analysis.
+
+Notebook 4: Pro Traders Analysis (Non-Log)
+
+Content: Detailed analysis of the pro traders subset.
+Purpose: Deep dive into the pro traders segment, exploring their characteristics and behaviors.
+Data: Data subset for pro traders, non-log transformed.
+Analysis: Descriptive statistics, EDA, and clustering.
+Note: Primary focus on EDA and clustering, considering non-log data might not be as effective for advanced visualizations.
+
+Notebook 5: Pro Traders Analysis (Log-Transformed)
+
+Content: In-depth analysis of the pro traders subset using log-transformed data.
+Purpose: To explore how log transformation affects the insights, robustness check for EDA and K-means clustering, and focus on advanced visualizations.
+Data: Log-transformed data subset for pro traders.
+Analysis: Descriptive statistics, EDA, clustering, and advanced visualizations (e.g., UMAP, t-SNE).
+Note: Investigate how log transformation influences the understanding of pro traders, with a particular focus on revealing patterns through advanced visualizations.
